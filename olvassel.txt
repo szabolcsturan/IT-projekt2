@@ -1,4 +1,5 @@
 Turán Szabolcs Gergely
-Url cim:
+Url cim: https://szabolcsturan.github.io/IT-projekt2/index.html
 Ez a weboldal egy élményvezetés szolgáltatásnak az oldala. 
 Lehet bérelni sportautókat amikkel az ügyfelek vezethetnek.
+

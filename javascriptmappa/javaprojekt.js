@@ -57,7 +57,9 @@ form.addEventListener("submit", function(event) {
         event.preventDefault(); 
         console.log("hiba");
     } else {
-        console.log("Minden fullos mehet a szerverre");
+    console.log("Minden fullos mehet a szerverre");
+    // Show success alert when validation passed
+    alert("Sikeres validálás — az adatokat elküldheted.");
     }
     
 });
