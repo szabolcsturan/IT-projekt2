@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Turán Szabolcs">
+    <meta name="description" content="Élményvezetés weboldala">    
+    <title>Élményvezetés</title>
+    <link rel="icon" type="image/png" href="kepek/car_circle.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="javascriptmappa/javaprojekt.js" defer></script>
+</head>
+<body>
+    <header> 
+        <img src="kepek/kocsilogo.png" alt="a cég logója" class="logo">
+        <h1>Élményvezetés</h1>
+    </header>       
+    <nav>
+        <ul>
+            <li><a href="projekt.html">Rólunk</a></li>
+            <li class="lenyit"><a href='#'>Autóink ▾</a>
+            <ul class="link2">
+                <li><a href='corvette.html'>Corvette C7</a></li>
+                <li><a href='amggt.html'>Mercedes amg GT</a></li>
+                <li><a href="audir8.html">Audi R8</a></li>
+                <li><a href="gt3rs.html">Porsche 911 GT3</a></li>
+            </ul>
+            </li>
+            <li><a href="kapcsolat.html">Kapcsolat</a></li>
+            <li><a href="arak.html">Áraink</a></li>
+        </ul>
+    </nav>
+    <form id="teljesform">
+        <h2>Ár kalkulátor</h2>
+        <div class="formresz">
+            <label class="kalk" for="auto">Kérem válassza ki a vezetni kívánt autót!</label> 
+            <select id="auto" name="auto">
+                <option value="20000">Corvette C7</option>
+                <option value="25000">Mercedes AMG GT</option>
+                <option value="22000">Audi R8</option>
+                <option value="30000">Porsche 911 GT3</option>
+            </select>
+                
+        </div>
+        <div class="formresz">
+            <label class="kalk" for="csomag">Kérem válasszon a csomagjaink közül!</label> 
+            <select id="csomag" name="csomag">
+                <option value="10000">3 kör a versenypályán</option>
+                <option value="12000">5 kör a versenypályán</option>
+                <option value="15000">8 kör a versenypályán</option>
+                <option value="20000">15 kör a versenypályán</option>
+            </select> 
+        </div>
+        <div class="formresz">
+            <label class="kalk" for="palya">Kérem válassza ki a legszimpatikusabb versenypályát!</label> 
+            <select id="palya" name="palya">
+                <option value="1.2">Kakucsring</option>
+                <option value="1.5">Euroring</option>
+                <option value="0.9">Palóc ring</option>
+                <option value="2">Balaton park circuit</option>
+                <option value="0.8">M-ring</option>
+            </select>
+                
+        </div>        
+        <div class="formresz">
+            <label class="kalk" for="kisero">Kérem válasszon kísérőt maga mellé</label> 
+            <select id="kisero" name="kisero">
+                <option value="5000">Baumgartner Zsolt (volt F1 pilóta)</option>
+                <option value="4000">Wéber Gábor (Formula pilóta)</option>
+                <option value="6000">Michelisz Norbert (Formula pilóta)</option>
+                <option value="3000">Tassi Attila (TCR-pilóta)</option>
+            </select>
+            
+        </div>
+        <div class="formresz">
+            <label class="kalk" for="kamera">Kérem válasszon a kamera szolgáltatásaink közül!</label> 
+            <select id="kamera" name="kamera">
+                <option value="5000">Csak fedélzeti GoPro-t szeretnék</option>
+                <option value="8000">Fedélzeti és kinti GoPro-t is szeretnék</option>
+                <option value="0">Nem kérek GoPro-t</option>
+
+            </select>
+            
+        </div>
+        <div class="formresz">
+            <label class="kalk" for="kedvezmeny">Kérem válasszon az alábbiak közül!</label> 
+            <select id="kedvezmeny" name="kedvezmeny">
+                <option value="0.9">Diák/Pedagógus</option>
+                <option value="0.85">Egészségügyi dolgozó</option>
+                <option value="1">Egyéb munkavállaló</option>
+            </select>
+            
+        </div>
+        <button id="szamol" type="button">Ár kalkulálása</button>
+
+        
+    </form>
+    <div id="kalkulacio" class="rejtett"></div>
+
+    <footer>
+        <p>Ez nem egy valós oldal</p>
+        <p>Készítette: Turán Szabolcs</p>
+    </footer>
+
+</body>
+</html>
