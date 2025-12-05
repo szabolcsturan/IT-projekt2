@@ -2,4 +2,6 @@ Turán Szabolcs Gergely
 Url cim: https://szabolcsturan.github.io/IT-projekt2/index.html
 Ez a weboldal egy élményvezetés szolgáltatásnak az oldala. 
 Lehet bérelni sportautókat amikkel az ügyfelek vezethetnek.
-
+Javascriptem: javascriptmappa/javaprojekt.js
+Az űrlapot validálom vele illetve ezzel számolom ki a csomagnak az árát
+Használt fonttípusom a Google fontról a Roboto
